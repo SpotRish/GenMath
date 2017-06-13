@@ -1,0 +1,138 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="afoofaGeneralGeometry.general_geometry.Btriangle"
+    tools:ignore="MergeRootFrame" >
+
+    <ScrollView
+        android:id="@+id/scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Formulas:\n"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="A closed figure consisting of three line segments linked end-to-end.\n
+A 3-sided polygon.
+"/>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Triangle Properties:\n"/>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="Base\n  The base of a triangle can be any one of the three sides, usually the one drawn at the bottom. You can pick any side you like to be the base. Commonly used as a reference side for calculating the area of the triangle. In an isosceles triangle, the base is usually taken to be the unequal side.
+\nAltitude\n  The altitude of a triangle is the perpendicular from the base to the opposite vertex. (The base may need to be extended). Since there are three possible bases, there are also three possible altitudes. The three altitudes intersect at a single point, called the orthocenter of the triangle. See Orthocenter of a Triangle.
+\n\n
+Median\n  The median of a triangle is a line from a vertex to the midpoint of the opposite side. The three medians intersect at a single point, called the centroid of the triangle.\n\n\n
+Interior angles\n	The three angles on the inside of the triangle at each vertex.\n  The interior angles of a triangle always add up to 180°\n\n
+Exterior angles\n	The angle between a side of a triangle and the extension of an adjacent side.
+ The exterior angles of a triangle always add up to 360°\n
+"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Types of Triangle:\n"/>
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="Equilateral       : 	All sides equal \n\n
+Isosceles	       :    Two sides equal \n\n
+Scalene           : 	  No sides equal  \n\n
+Right Triangle : One angle 90°.  \n\n
+Obtuse		         :     One angle greater than 90°  \n\n
+Acute		           :     All angles less than 90° \n\n
+Equiangular	  :  All interior angles equal\n\n"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                android:text="Formulas:\n"/>
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:text="Area of Equilateral Triangle :\n\n 1/2*b*h \n\n
+Area of Triangle By Heron's Formula :\n\n √ s(s-a)(s-b)(s-c)\n\n
+Heron's formula for Equilateral Triangle : \n\n √3/4 s^2 \n\n
+Perimeter : \n\n a+b+c"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_margin="10dp"
+                android:text="* s = (a+b+c)/2 , a,b,c are sides of triangle."
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+

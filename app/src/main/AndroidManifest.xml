@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="afoofaGeneralGeometry.general_geometry" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Index"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.Start" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Start"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Splash"
+            android:label="@string/title_activity_splash" >
+        </activity>
+        <activity
+            android:name=".cone"
+            android:label="@string/title_activity_cone" >
+        </activity>
+        <activity
+            android:name=".sphere"
+            android:label="@string/title_activity_sphere" >
+        </activity>
+        <activity
+            android:name=".Circle"
+            android:label="@string/title_activity_circle" >
+        </activity>
+        <activity
+            android:name=".Pyramid"
+            android:label="@string/title_activity_pyramid" >
+        </activity>
+        <activity
+            android:name=".Square"
+            android:label="@string/title_activity_square" >
+        </activity>
+        <activity
+            android:name=".CustomListAdapter"
+            android:label="@string/title_activity_custom_list_adapter" >
+        </activity>
+        <activity
+            android:name=".Reactangle"
+            android:label="@string/title_activity_reactangle" >
+        </activity>
+        <activity
+            android:name=".Cylinder"
+            android:label="@string/title_activity_cylinder" >
+        </activity>
+        <activity
+            android:name=".Rhombus"
+            android:label="@string/title_activity_rhombus" >
+        </activity>
+        <activity
+            android:name=".Cuboid"
+            android:label="@string/title_activity_cuboid" >
+        </activity>
+        <activity
+            android:name=".Hemisphere"
+            android:label="@string/title_activity_hemisphere" >
+        </activity>
+        <activity
+            android:name=".Trapezium"
+            android:label="@string/title_activity_trapezium" >
+        </activity>
+        <activity
+            android:name=".Triangle"
+            android:label="@string/title_activity_triangle" >
+        </activity>
+
+        <activity
+            android:name=".Bcone"
+            android:label="@string/title_activity_bcone" >
+        </activity>
+        <activity
+            android:name=".Bcircle"
+            android:label="@string/title_activity_bcircle" >
+        </activity>
+        <activity
+            android:name=".Bpyramid"
+            android:label="@string/title_activity_bpyramid" >
+        </activity>
+        <activity
+            android:name=".Bcylinder"
+            android:label="@string/title_activity_bcylinder" >
+        </activity>
+        <activity
+            android:name=".Btriangle"
+            android:label="@string/title_activity_btriangle" >
+        </activity>
+        <activity
+            android:name=".Bsquare"
+            android:label="@string/title_activity_bsquare" >
+        </activity>
+        <activity
+            android:name=".Brectangle"
+            android:label="@string/title_activity_brectangle" >
+        </activity>
+        <activity
+            android:name=".Brhombus"
+            android:label="@string/title_activity_brhombus" >
+        </activity>
+        <activity
+            android:name=".Btrapezium"
+            android:label="@string/title_activity_btrapezium" >
+        </activity>
+        <activity
+            android:name=".Bcuboid"
+            android:label="@string/title_activity_bcuboid" >
+        </activity>
+        <activity
+            android:name=".Bsphere"
+            android:label="@string/title_activity_bsphere" >
+        </activity>
+        <activity
+            android:name=".Bhemisphere"
+            android:label="@string/title_activity_bhemisphere" >
+        </activity>
+    </application>
+
+</manifest>

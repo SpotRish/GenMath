@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="afoofaGeneralGeometry.general_geometry.Bcylinder"
+    tools:ignore="MergeRootFrame" >
+
+    <ScrollView
+        android:id="@+id/scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical" >
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_marginTop="20dp"
+                android:layout_width="240dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                android:src="@drawable/cylinders" />
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Cylinder "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="A cylinder is a closed solid that has two parallel (usually circular) bases connected by a curved surface.\n
+
+"></TextView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Base and side \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="A cylinder is a geometric solid that is very common in everyday life, such as a soup can. If you take it apart you find it has two ends, called bases, that are usually circular. The bases are always congruent and parallel to each other. If you were to 'unroll' the cylinder you would find the the side is actually a rectangle when flattened out.\n">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Height \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="The height h is the perpendicular distance between the bases. It is important to use the perpendicular height (or 'altitude') when calculating the volume of an oblique cylinder.">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Radius \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="The radius r of a cylinder is the radius of a base. If you are given the diameter instead, remember to halve it.">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Volume and surface area \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:text="Volume = Π r^2 h \n\n Surface area = 2 Π r^2 h \n">
+
+            </TextView>
+
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_margin="10dp"
+                android:text=" r is radius, h is height"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

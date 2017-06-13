@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="afoofaGeneralGeometry.general_geometry.Bpyramid"
+    tools:ignore="MergeRootFrame" >
+
+    <ScrollView
+        android:id="@+id/scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="258dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="21dp"
+                android:src="@drawable/pyramids"
+                android:layout_weight="0.09" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="Definition \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="A polyhedron that has a base and three or more triangular faces that meet at a point
+above the base.\n
+A pyramid is a polyhedron that has a base, which can be any polygon, and three or more triangular faces that meet at a point called the apex. These triangular sides are sometimes called the lateral faces to distinguish them from the base.
+\n
+">
+
+            </TextView>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Surface area and volume \n "
+                android:fontFamily="monospace"
+                android:textSize="20sp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/purple"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:text="
+Surface area =\n [Base Area] + 1/2 × Perimeter × [Slant height] \n
+Volume = 1/3 × [Base Area] × Height
+\n"></TextView>
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="*The slant height is the hypotenuse of the right triangle formed by the height and half the base length. ">
+
+                </TextView>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+

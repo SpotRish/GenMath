@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="afoofaGeneralGeometry.general_geometry.Bcuboid"
+    tools:ignore="MergeRootFrame" >
+
+    <ScrollView
+        android:id="@+id/scrollv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/cuboids" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:text="Cuboid \n"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_margin="10dp"
+                android:textSize="20sp"
+                android:text="Definition Of Cuboid \n"/>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="Cuboid is a polyhedron with six rectangular plane faces.\n
+=>>More About Cuboid \n
+
+There are 12 edges and 8 vertices in a cuboid.\n
+Cuboid is also called as right rectangular prism or rectangular parallelepiped box.\n
+If all the edges of a cuboid are equal then it forms a cube.\n
+In a cuboid opposite faces are equal and parallel and all angles are right angles.\n
+\n"
+                android:layout_weight="0.37" />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:text="Formulas:\n"/>
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="monospace"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple"
+                android:text="Volume = lwh \n\nLateralSurfaceArea = 2lh + 2wh \n\nSurface Area = 2lw + 2lh + 2wh \n"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="l is length , h is height , w is width.\n"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
